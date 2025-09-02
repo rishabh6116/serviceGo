@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */ 
+}
+
+/* -------------HEADER--------------- */
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: #000A2D;
+    display: flex;
+    text-align: center;
+    box-shadow: 5px 10px 5px #000A2D;
+    position: fixed;
+}
+.header .logo-img{
+    border: 1px solid red;
+    margin: 30px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 8px;
+    height: 60px;
+    width: 85px;
+    border-radius: 50%;
+    background-image:url(../../img/logoicon.png);
+    background-position: center;
+    background-size: cover;
+}
+.header #logo-name{
+    font-size: 50px;
+    margin: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 600;
+    text-shadow: 2.2px 1px 2px #ff0000;
+    color: #ff7200;
+}
+.header #logo-name:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+#logo-name-clickable{
+    color: #ff7200;
+    text-decoration: none;
+}
+
+.header .nav{
+    /* border: 1px solid red; */
+    padding: 0px 60px;
+    height: 50px;  
+    width: 100%; 
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .nav a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+.header .nav a:hover{
+    color: #ff7200;
+    text-shadow: 5px 5px 10px black;
+}
+.header .nav #login:hover{
+    color: rgb(10, 197, 10);
+    text-shadow: 5px 5px 10px black;
+}
+
+/* -------Container defalt CSS --------- */
+/* .container{
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(to right, #000113 , #001D49, #000928);
+} */
+/* ------------------------------- You Can Edit from below Area --------------------------------------- */
+
+
+.container {
+    min-height: 100vh;
+    width: auto;
+    background-image: linear-gradient(to right, #000113 , #001D49, #000928);
+    display: flex;
+    justify-content: center;
+}
+.block{
+    /* border: 4px solid red; */
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    background-color: linear-gradient(to right, #000113 , #001D49, #000928);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile {
+    /* border: 4px solid green; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px;
+}
+
+.circular-section {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #000A2D;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-section:hover{
+    transition: transform 1s;
+}
+
+.circular-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caption {
+    text-align: center;
+    color: #ff7200;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.caption #extra-caption{
+    font-style: italic;
+    font-size: 15px;
+    color: #fff;
+}
+/* Button styling */
+.btn {
+    background-color: #ff7200;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal; /* Default weight */
+}
+
+.btn:hover {
+    background-color: #fff; /* Background changes to white */
+    color: black; /* Text changes to black */
+}
+
+.btn:hover a {
+    color: black; /* Link text changes to black */
+    font-weight: bold; /* Makes the "Read More" text bold on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
