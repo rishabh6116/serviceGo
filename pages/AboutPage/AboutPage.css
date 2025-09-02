@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */ 
+}
+
+/* -------------HEADER--------------- */
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: #000A2D;
+    display: flex;
+    text-align: center;
+    /* margin-bottom: 20px; */
+    box-shadow: 5px 10px 5px #000A2D;
+}
+.header .logo-img{
+    border: 1px solid red;
+    margin: 30px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 8px;
+    height: 60px;
+    width: 85px;
+    border-radius: 50%;
+    background-image: url(../../img/logoicon.png);
+    background-position: center;
+    background-size: cover;
+}
+.header #logo-name{
+    font-size: 50px;
+    margin: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 600;
+    text-shadow: 2.2px 1px 2px #ff0000;
+    color: #ff7200;
+}
+.header #logo-name:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+#logo-name-clickable{
+    color: #ff7200;
+    text-decoration: none;
+}
+
+.header .nav{
+    /* border: 1px solid red; */
+    padding: 0px 60px;
+    height: 50px;  
+    width: 100%; 
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .nav a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+.header .nav a:hover{
+    color: #ff7200;
+    text-shadow: 5px 5px 10px black;
+}
+
+button{
+    height: auto;
+    width: auto;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #ff7200;
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 0;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+
+
+/* -------Container defalt CSS --------- */
+.container{
+    /* border: 4px solid red; */
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(to right, #000113 , #001D49, #000928);
+}
+/* ------------------------------- You Can Edit from below Area --------------------------------------- */
+
+
+.block{
+    /* border: 2px solid blue; */
+    width: auto;
+    height: auto;
+    margin: 40px;
+    margin-top: 0px;
+    display: flex;
+    justify-content:space-around;
+}
+#block1{
+    padding-top: 30px;
+}
+.slides{
+    border: 2px solid rgb(31, 3, 3);
+    margin: 10px;
+    height: 400px;
+    width: 45%;
+}
+.slides:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+    cursor: pointer;
+    box-shadow: 15px 15px 20px rgb(31, 3, 3);
+}
+#slide1, #slide3, #slide5, #slide7, #slide9{
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+#slide2, #slide4, #slide6, #slide8, #slide10{
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#slide1, #slide2, #slide3, #slide4, #slide5, #slide6, #slide7, #slide8, #slide9, #slide10{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+#slide1{
+    background-image: url(../../files/slide1.jpg);
+}
+#slide2{
+    background-image: url(../../files/slide2.jpg);
+}
+#slide3{
+    background-image: url(../../files/slide3.jpg);
+}
+#slide4{
+    background-image: url(../../files/slide4.jpg);
+}
+#slide5{
+    background-image: url(../../files/slide5.jpg);
+}
+#slide6{
+    background-image: url(../../files/slide6.jpg);
+}
+#slide7{
+    background-image: url(../../files/slide7.jpg);
+}
+#slide8{
+    background-image: url(../../files/slide8.jpg);
+}
+#slide9{
+    background-image: url(../../files/slide9.jpg);
+}
+#slide10{
+    background-image: url(../../files/slide10.jpg);
+}
+
+/* -------------------- Glow Button Hover ---------------------- */
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+.glow-on-hover:active {
+    color: #ff7200;
+}
+.glow-on-hover:active:after {
+    background: transparent;
+}
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ff7200;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
