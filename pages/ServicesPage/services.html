@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - serviceGo</title>
+    <link rel="stylesheet" href="services.css">
+    <script>
+        function redirectToCategory() {
+            const semesterSelect = document.getElementById("category");
+            const selectedValue = semesterSelect.value;
+            if (selectedValue) {
+                window.location.href = `#${selectedValue}`;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-img"></div>
+        <div id="logo-name"><h4><a id="logo-name-clickable" href="../../index.html">serviceGo</a></h4></div>
+        <div class="nav">
+            <a href="../../index.html">Back to home</a>
+            <a href="#">Blog </a>
+            <a href="../AboutPage/AboutPage.html">About </a>
+            <a href="#"> Cart </a>
+
+            <a>
+            <!-- Semester Selection beside the heading -->
+            <form id="category-selection">
+                <label for="category">&#x1F50D;Select : </label>
+                <select id="category" name="category" onchange="redirectToCategory()">
+                    <option value="">--Select Your Category--</option>
+                    <option value="Electronics">Electronics and Gadgets</option>
+                    <option value="Study">Study Materials</option>
+                    <option value="Fashion">Fashion and Apparel</option>
+                    <option value="Home">Home and Living</option>
+                    <option value="Health">Health and Beauty</option>
+                    <option value="Sports">Sports and Outdoors</option>
+                    <option value="Toys">Toys and Baby Products</option>
+                    <option value="Groceries">Groceries and Essentials</option>
+                    <option value="Automotive">Automotiver</option>
+                    <option value="Books">Books and Entertainment</option>
+                    <option value="Office">Office and Business</option>
+                    <option value="Jewelry">Jewelry and Luxury Products</option>
+                    <option value="Travel">Travel and Luggage</option>
+                    <option value="Pet">Pet Supplies</option>
+                </select>
+            </form>
+        </a>
+
+        </div>
+
+
+        
+    </div>
+
+<!-- ---------------------- You Can Edit from below Area inside Container Section --------------------->
+
+
+    <div class="container">
+        <!-- ---------------------- Electronics and Gadgets --------------------->
+        <div class="block">
+            <h2 id="Electronics" class="bodyheading">➡️ Electronics and Gadgets</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/well-organised-white-office-objects-colorful-background_264197-16492.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_hybrid" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309648.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_hybrid" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/modern-youth-gadgets-devices-yellow-background-top-view-flat-lay_175682-21250.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_hybrid" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/well-organised-white-office-objects-colorful-background_264197-16488.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_hybrid" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/vr-headphone-laptop-blue-background-concept-vr-game-simulate-technology_34777-318.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_hybrid" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- ---------------------- Study Materials --------------------->
+        <div class="block">
+            <h2 id="Study" class="bodyheading">➡️Study Materials</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Fashion and Apparel --------------------->
+        <div class="block">
+            <h2 id="Fashion" class="bodyheading">➡️Fashion and Apparel</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Home and Living --------------------->
+         <div class="block">
+            <h2 id="Home" class="bodyheading">➡️Home and Living</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Health and Beauty --------------------->
+        <div class="block">
+            <h2 id="Health" class="bodyheading">➡️Health and Beauty</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Sports and Outdoors --------------------->
+        <div class="block">
+            <h2 id="Sports" class="bodyheading">➡️Sports and Outdoors</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Toys and Baby Products --------------------->
+        <div class="block">
+            <h2 id="Toys" class="bodyheading">➡️Toys and Baby Products</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Groceries and Essentials --------------------->
+        <div class="block">
+            <h2 id="Grocerios" class="bodyheading">➡️Groceries and Essentials</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Automotive --------------------->
+        <div class="block">
+            <h2 id="Automotive" class="bodyheading">➡️Automotive</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Books and Entertainment --------------------->
+        <div class="block">
+            <h2 id="Books" class="bodyheading">➡️Books and Entertainment</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Office and Business --------------------->
+        <div class="block">
+            <h2 id="Office" class="bodyheading">➡️Office and Business</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Jewelry and Luxury Products --------------------->
+        <div class="block">
+            <h2 id="Jewelry" class="bodyheading">➡️Jewelry and Luxury Products</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Travel and Luggage --------------------->
+        <div class="block">
+            <h2 id="Travel" class="bodyheading">➡️Travel and Luggage</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---------------------- Pet Supplies --------------------->
+        <div class="block">
+            <h2 id="Pet" class="bodyheading">➡️Pet Supplies</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/school-supplies-medical-face-mask-desk_93675-90781.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae quia aliquam dolorem delectus beatae cupiditate iusto sapiente molestiae et?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135416.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium distinctio ratione consequuntur neque sunt voluptatibus dignissimos enim ipsum voluptatem.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table_23-2148721263.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aut aperiam voluptatum explicabo officiis amet nesciunt iusto. Sed, aspernatur eos!</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/back-school-witch-school-supplies_23-2148151096.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione magni incidunt ea autem ut consequatur ad provident sequi?</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/back-school-concept-with-alarm-clock-yellow_93675-91519.jpg?uid=R178888370&ga=GA1.1.662471019.1732897390&semt=ais_tags_boosted" alt="img1">
+                    <h3>Object 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolorem cum veritatis reiciendis provident amet delectus excepturi quisquam minus sequi.</p>
+                    <div class="card-btns">
+                        <a href="example.pdf" target="_blank" class="view-btn">View</a>
+
+                        <a href="example.pdf" download class="explore-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>
